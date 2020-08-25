@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<AutoFramework>
+
+  <RunSettings>
+
+    <AUT>http://demowebshop.tricentis.com/</AUT>
+    <!-- Possible flag  Chrome, Firefox, IE -->
+    <Browser>Chrome</Browser>
+    <!-- Possible flag  Smoke, Regression, Unit -->
+    <TestType>SmokeTest</TestType>
+    <!-- Possible flag  Y, N -->
+    <IsLog>Y</IsLog>
+
+    <LogPath>C:\MyStuff\Work\C#\ExecutionDirectory\LogReports\</LogPath>
+
+    <BuildName>DemoBuild</BuildName>
+    <!-- Possible flag  Y, N -->
+    <IsReport>N</IsReport>
+
+    <Username>Pradeep</Username>
+    <!-- Possible flag  Selenium, Specflow -->
+    <Technology>Selenium</Technology>
+    
+  </RunSettings>
+  
+</AutoFramework>
